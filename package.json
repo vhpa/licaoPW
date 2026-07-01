@@ -1,0 +1,29 @@
+{
+  "name": "api-gestao-colaboradores-beneficios",
+  "version": "1.0.0",
+  "description": "API REST em Node.js + Express (simulando RH) para Gestão de Colaboradores e Benefícios.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "node",
+    "viacep",
+    "json",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
+
