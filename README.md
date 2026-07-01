@@ -49,7 +49,7 @@ A API subirá em:
 ---
 
 ## Divisão de Responsabilidades
-
+| ------------- | ------------- | ------------- |
 | Gabriel Deboni | Rotas | Implementação das regras de negócio: CRUD de colaboradores, atualização permitida (cargo/email), soft delete e persistência no `colaboradores.json`. |
 | Vitor Hugo Pedroso de Almeida | Service/ViaCEP + Middlewares + Controllers | Consumidor do ViaCEP (`viacep.service.js`) + validações reutilizáveis no `validacao.middleware.js`, validações de CPF duplicado e montagem das respostas/erros conforme regras do enunciado. |
 
