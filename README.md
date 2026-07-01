@@ -51,7 +51,7 @@ A API subirá em:
 ## Divisão de Responsabilidades
 | Gabriel Deboni| Vitor Hugo Pedroso de Almeida | Matheus Isaac | Laura Baliana|
 | --- | --- |---|---|
-| Rotas |Service/ViaCEP + Middlewares |Middlewares|Service/ViaCEP + Middlewares|
+| Rotas |Service/ViaCEP + Middlewares |Middlewares|Service + CRUD|
 |Definição das rotas (routes/colaboradores.routes.js) e organização dos endpoints da API (CRUD completo) |Consumo da API ViaCEP (services/viacep.service.js), criação e manutenção de middlewares de validação (middlewares/validacao.middleware.js), validação de CPF duplicado, validações de entrada e regras reutilizáveis | Desenvolvimento dos controllers (controllers/colaboradores.controller.js): criar, listar, buscar por ID, atualizar e deletar colaboradores | Implementação dos services (services/colaboradores.service.js): CRUD completo, atualização de cargo/email, soft delete e persistência no arquivo colaboradores.json|
 
 
