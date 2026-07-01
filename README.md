@@ -206,7 +206,6 @@ A API subirá em:
 ---
 
 
-12. **Buscar não existente** (`GET /colaboradores/:id` e `DELETE /colaboradores/:id`) deve retornar `404`
 
 
 
